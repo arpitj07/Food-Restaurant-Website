@@ -1,0 +1,56 @@
+.contacts{
+    background: url("images/bg3.jpg");
+    background-size: cover;
+}
+
+.contactForm{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0 0 0 /0.5);
+    max-width: 500px;
+    margin-top: 50px
+}
+
+.contactForm h3{
+    color: #111;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    
+}
+.contactForm .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contactForm .inputbox input,
+.contactForm .inputbox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm .inputbox input[type='submit']{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    max-width: 100px;
+    transition: 0.5s;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.copyrightText{
+    text-align: center;
+    padding: 10px 45px;
+    border-top: 1px solid rgba(0 0 0 /0.1);
+}

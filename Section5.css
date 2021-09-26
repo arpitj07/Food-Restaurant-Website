@@ -1,0 +1,80 @@
+.white p, .white .titleText{
+    color: #fff;
+}
+
+.testimonials{
+    background: url("images/bg2.jpg");
+    background-size: cover;
+}
+
+.testimonials .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.testimonials .content .box{
+    width: 340px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonials .content .box .imgbx{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+ .testimonials .content .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials .content .box .text{
+    position: relative;
+    visibility: hidden;
+    height: 0;
+
+}
+.testimonials .content .box .text h3{
+    color: #ff0157;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.testimonials .content .box:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.testimonials .content .box:hover img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    transform: translateY(20px);
+    transition: 0.4s;
+}
+
+.testimonials .content .box:hover .text{
+    visibility: visible;
+    color: #fff;
+    transform: translateY(-250px);
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
